@@ -1,12 +1,17 @@
 # Computer
-We want to build something like the computer in StarTrek which can do complex queries based on natrual language speech.
+We want to build something like the computer in StarTrek which can do complex queries based on natural language speech.
 
 ## Game Plan
 #### Step 1
-Make a system which can run a comand which is stated as a query
-- "What is the length of students?"
+- See what the existing state of the art tools can do to parse a question / sentence. We will test out tools from [Existing Resources](#existing-resources) and results will be documented in the [wiki](https://github.com/luwen-huang/computer/wiki/Resources).
+
 #### Step 2
+Make a system which can run a command which is stated as a query
+- "What is the length of students?"
+
+#### Step 3
 Make a system which can run simple queries that don't need a bunch of joins
+
 
 ## Existing Resources
 This is a list of existing attempts to do this which we would do well to use as a jumping off point.
@@ -22,18 +27,13 @@ This is a list of existing attempts to do this which we would do well to use as 
 	- [Kueri](http://kueri.me)
 	- [FriendlyData](https://friendlydata.io)
 
-## Speech to Text
-A starting point for speech recognition is [SpeechRecognition](https://pypi.python.org/pypi/SpeechRecognition)
-for python. I will edit this document to have notes on how well this tool works and other tools I find.
+### APIs
+- [TextRazor](https://www.textrazor.com/demo) Easy to try with a demo
+- [Bluemix]() Needs a sign-up but has a free plan of 1000 free NLU items per day
 
-## Natural Language to Query
-This should be populated with ideas from [Existing Resources](#existing-resources)
-
-### Test Cases
-- "How many students are there" => students.length
 
 ## Example Datasets
-Our goal was to start with JSON files, so I have started by populated the example-datasets folder with 
+Our goal was to start with JSON files, so I have started by populated the example-datasets folder with
 JSON files from [JsonStudio](http://jsonstudio.com/resources/).
 - companies.json
 - enron.json
