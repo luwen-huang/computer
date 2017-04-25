@@ -29,7 +29,8 @@ This is a list of existing attempts to do this which we would do well to use as 
 
 ### APIs
 - [TextRazor](https://www.textrazor.com/demo) Easy to try with a demo
-- [Bluemix]() Needs a sign-up but has a free plan of 1000 free NLU items per day
+- [Bluemix](https://www.ibm.com/cloud-computing/bluemix/) Needs a sign-up but has a free plan of 1000 free NLU items per day
+- [Google Natural Language API](https://cloud.google.com/natural-language/docs/basics) The article on Morphology and Dependecy Trees(https://cloud.google.com/natural-language/docs/morphology) gives an idea of what POS's they're capable of tagging
 
 
 ## Example Datasets
